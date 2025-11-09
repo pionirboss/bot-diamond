@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: bot-diamond
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node index.js"
+    envVars:
+      - key: TOKEN
+        sync: false
+      - key: ADMIN_CHAT_ID
+        sync: false
