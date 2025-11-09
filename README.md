@@ -1,0 +1,2 @@
+# bot-diamond
+bot tele
